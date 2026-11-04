@@ -1,22 +1,17 @@
-.blue {
-    color: blue;
+body {
+    background: lightblue;
+    color: #123;
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.text_content {
-    flex-direction: column;
-    display: flex;
-}
-
-body{
-  font-family: "Isometra", serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #ff4a4a;
+a:hover {
+    color: purple;
 }
